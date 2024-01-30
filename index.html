@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+
+    <section class="side-nav position-absolute z-1 position-fixed top-0 bottom-0" id="sideNav">
+        <div class="first-part">
+            <img src="imgs/logo.png" alt="logo">
+            <div class="first-part-icons">
+                <i class="fa-solid fa-align-justify fa-2x menu" id="sideBtn"></i>
+                <div class="links d-flex flex-column">
+                    <i class="fa-solid fa-globe pb-1"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+        <div class="second-part">
+            <div class="list">
+                <ul>
+                    <li onclick="showSearchLayer();"><a href="#">Search</a></li>
+                    <li onclick="runCat();"><a href="#" id="catBtn">Categories</a></li>
+                    <li onclick="runArea();"><a href="#" id="areaBtn">Area</a></li>
+                    <li onclick="runIngred();"><a href="#" id="IngredIBtn">Ingredients</a></li>
+                    <li onclick="showContactLayer();"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-bottom">
+                <div class="nav-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe pb-1"></i>
+                </div>
+                <div class="nav-rights">
+                    <p>Copyright Â© 2024 All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home position-relative pt-5">
+        <div class="container">
+            <div class="row" id="homeItem">
+
+            </div>
+
+            <section class="category">
+                <div class="row" id="categoryItem">
+
+                </div>
+            </section>
+
+            <section class="area">
+                <div class="row" id="areaItem">
+
+                </div>
+            </section>
+
+            <section class="Ingredients">
+                <div class="row" id="IngredItem">
+
+                </div>
+            </section>
+
+            <section class="categoryMeal">
+                <div class="row" id="categoryMeal">
+
+                </div>
+            </section>
+
+            <section class="areaMeal">
+                <div class="row" id="areaMeal">
+
+                </div>
+            </section>
+
+            <section class="mealDetails text-white">
+                <div class="row" id="mealDetails">
+
+                </div>
+            </section>
+
+            <section class="itemBasedOnIngred">
+                <div class="row" id="itemBasedOnIngred">
+
+                </div>
+            </section>
+
+            <section class="inputsLayer">
+                <div class="row" id="inputLayer">
+
+                </div>
+            </section>
+
+            <section class="searchLayer mb-4" id="searchPage">
+                <div class="row mb-5" id="searchLayer">
+
+                </div>
+                <div class="row" id="searchByNameResults">
+
+                </div>
+            </section>
+            <section class="contact">
+                <div class="container w-75">
+                    <div class="row g-4 justify-content-center align-items-center alertStyle" id="contact">
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <div class="screenloading">
+        <span class="loader"></span>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
